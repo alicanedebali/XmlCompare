@@ -22,7 +22,9 @@ function set(&$xml, &$arr)
 set($xml2, $arr);
 set($xml1, $arr2);
 $result = array_diff($arr, $arr2);
-print_r($result);
+$myfile = fopen("compare.txt", "w");
+file_put_contents('compare.txt', print_r($result, true));
+
 
 
 
