@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <interfaces>
+        <interface>
+            <name>interfacename</name>
+            <type>gigaeth</type>
+            <mtu>1500</mtu>
+            <counters>
+                <inBytes>17800</inBytes>
+                <inPackets>156000</inPackets>
+                <inErrors>50</inErrors>
+            </counters>
+        </interface>
+    </interfaces>
+</data>
